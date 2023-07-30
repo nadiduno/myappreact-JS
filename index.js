@@ -1,7 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-function Exemplo() {
+function MyApp() {
     return (
         <div>
             <h1>REACT</h1>
@@ -10,4 +10,4 @@ function Exemplo() {
     )
 }
 
-ReactDOM.render(<Exemplo/>, document.getElementById("root"))
+ReactDOM.render(<MyApp />, document.getElementById("root"))
